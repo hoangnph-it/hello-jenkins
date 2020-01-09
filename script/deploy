@@ -4,7 +4,6 @@ ssh app@209.97.160.247 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
-  forever stopall
   forever start app.js
   exit
 EOF
